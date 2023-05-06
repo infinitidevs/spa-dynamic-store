@@ -1,0 +1,106 @@
+.ah-claim {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    flex-direction: row;
+    min-height: 9.6rem;
+    align-items: center;
+}
+
+.ah-claim-list {
+    width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 3rem 0rem 3rem 10rem;
+}
+
+.ah-claim-item {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 1.4rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.ah-claim-icon {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    width: 32px;
+    height: 32px;
+}
+
+.ah-claim-p {
+    font-size: 14px;
+    line-height: 1.4285714286;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.ah-newsletter {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 3rem 0rem 5rem 10rem;
+    display: inline-block;
+}
+
+.ah-newsletter-content > h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+}
+
+.ah-newsletter-content > p {
+    font-size: 16px;
+}
+
+.ah-newsletter-btn-wrapper {
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.ah-newsletter-btn {
+    padding: 9px 24px;
+    background-color: var(--ah-color-n-600);
+    color: var(--ah-color-n-050);
+    font-family: var(--ah-typography-typeface);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ah-newsletter-btn:hover {
+    color: var(--ah-color-n-050);
+    background-color: var(--ah-color-n-400);
+}
+
+@media screen and (max-width: 55.625rem) {
+    .ah-claim {
+        display: inline-block;
+        flex-flow: column;
+        width: 100%;
+        flex-direction: row;
+        min-height: 9.6rem;
+        align-items: center;
+    }
+
+    .ah-claim-list {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 2rem 0rem 2rem 3rem;
+        width: 100%;
+    }
+
+    .ah-newsletter {
+        display: flex;
+        flex-flow: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        padding: 2rem 0rem 2rem 3rem;
+    }
+}

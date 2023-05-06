@@ -1,0 +1,32 @@
+.ah-sun-claim {
+    margin: 2rem;
+    padding: 1rem;
+    border-top-style: outset;
+}
+
+.ah-sun-claim * {
+    box-sizing: inherit;
+    text-align: center;
+    justify-content: center;
+}
+
+.ah-sun-claim > article {
+    flex-direction: column;
+    padding: 8px;
+}
+
+.ah-sun-claim > article > h3 {
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.ah-sun-claim-p {
+    font-size: 18px;
+}
+
+.ah-sun-claim__p-2 {
+    font-size: 14px;
+    color: var(--ah-color-n-200);
+}

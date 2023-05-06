@@ -1,5 +1,5 @@
 {
-  "name": "spa-dynamic-syoundefinedre",
+  "name": "proyecto2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.3.2"
+    "vite": "^4.2.0"
   }
 }

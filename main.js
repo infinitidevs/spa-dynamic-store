@@ -1,24 +1,16 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import "./index.css";
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+import { printTemplate as Header } from "./src/components/Header/Header";
+import { printTemplate as Footer } from "./src/components/Footer/Footer";
+import { printTemplate as Home } from "./src/pages/Home/Home";
+import { printTemplate as Sunglasses } from "./src/pages/Sunglasses/Sunglasses";
 
-setupCounter(document.querySelector('#counter'))
+import { linkPage } from "./src/utils/linkpage";
+
+Header();
+Footer();
+
+Sunglasses();
+
+linkPage("#home-link", Home);
+linkPage("#sunglasses-link", Sunglasses);

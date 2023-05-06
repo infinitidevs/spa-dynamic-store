@@ -1,0 +1,109 @@
+.ah-card {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: -1px 0px 2px 1px rgba(205, 23, 26, 0.302);
+    overflow: hidden;
+    width: 400px;
+    height: 350px;
+}
+
+.ah-card>figure {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.ah-card>figure>img {
+    width: 100%;
+}
+
+.ah-card-fav-icon {
+    position: absolute;
+    color: var(--ah-color-n-600);
+    width: 24px;
+    height: 24px;
+    right: 0.8rem;
+    top: 0.8rem;
+    z-index: 45;
+}
+
+.ah-card-details {
+    background-color: var(--ah-color-n-050);
+    border-radius: 10px;
+    padding: 10px 10px 30px 10px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    transition: box-shadow 0.3s ease-in-out, top 0.3s ease-in-out;
+}
+
+.ah-card:hover {
+    border: 1px solid var(--ah-color-n-400);
+}
+
+.ah-card:hover figure {
+    transform: rotate(-20deg);
+}
+
+.ah-card:hover .ah-card-details {
+    box-shadow: 0px -5px 10px -3px rgba(205, 23, 26, 0.302);
+    top: 65%;
+    background-color: rgba(255, 255, 255, 0.149);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);    
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+}
+
+.ah-card-details>.ah-card-min-details {
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 1.2rem;
+    justify-content: space-between;
+}
+
+.ah-card-details>.ah-card-min-details>h1 {
+    color: var(--ah-color-n-500);
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    max-width: 65%;
+    letter-spacing: 0.2rem;
+}
+
+.ah-card-details>.ah-card-min-details>h1>span {
+    color: var(--ah-color-n-200);
+    display: block;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.ah-card-details-btn {
+    background-color: var(--ah-color-n-400);
+    border-radius: 5px;
+    color: var(--ah-color-n-050);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.ah-card-details-btn:hover {
+    box-shadow: 0 5px 10px rgba(205, 23, 26, 0.302);
+    transform: translateY(-2px);
+}
+
+.ah-section-featured__article {
+    flex-direction: column;
+}
+
+.ah-section-featured--preview {
+    width: auto;
+    height: var(--ah-image-height);
+}
+
+.ah-section-featured--price {
+    color: var(--ah-color-typography-price);
+}

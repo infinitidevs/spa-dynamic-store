@@ -1,0 +1,15 @@
+.ah-featured {
+    padding: var(--ah-section-padding);
+    align-items: flex-start;
+}
+
+.ah-featured__gallery {
+    width: 100vw;   
+    padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ah-featured {
+        flex-wrap: wrap;
+    }
+}

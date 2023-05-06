@@ -1,0 +1,33 @@
+.ah-section-double-banner-left,
+.ah-section-double-banner-right {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.ah-section-double-banner img {
+    display: inline-block;
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ah-section-double-banner-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: var(--ah-typography-typeface);
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 9px 24px;
+    background-color: var(--ah-color-n-050);
+    color: var(--ah-color-n-600);
+}
+
+.ah-section-double-banner-btn:hover {
+    color: var(--ah-color-n-050);
+    background-color: var(--ah-color-n-400);
+}

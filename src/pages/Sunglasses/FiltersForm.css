@@ -1,0 +1,103 @@
+.ah-filters-container {
+    padding: 1rem 0rem;
+    margin: 1rem 0rem 0rem 4rem;
+}
+
+.ah-form-container {
+    padding: 30px 25px;
+    max-width: 5vw;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: -1px 0px 2px 0px rgba(205, 23, 26, 0.302);
+    
+}
+
+legend {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-align: center;
+    background-color: var(--ah-color-n-050);
+    padding-left: 18px;
+}
+
+.ah-title-container-filters {
+    color: var(--ah-color-n-600);
+    background-color: gainsboro;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.ah-select-warpper {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: darkgray;
+}
+
+.ah-select-options {
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid var(--ah-color-n-200);
+}
+
+.ah-price-input {
+    margin: 16px 0px 16px 0px;
+    padding: 8px 0px 24px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: darkgray;
+}
+
+.ah-search-input {
+    padding: 6px 27px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid var(--ah-color-n-200);
+}
+
+.ah-buttons-container {
+    display: flex;
+    gap: 18px;
+}
+
+.ah-btn-search {
+    border: 1px solid var(--ah-color-n-600);
+    color: var(--ah-color-n-500);
+    background-color: transparent;
+    padding: 8px 26px;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.ah-btn-search:hover {
+    background-color: var(--ah-color-n-400);
+    color: var(--ah-color-n-050);
+}
+
+@media screen and (max-width: 768px) {
+    .ah-filters-container {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    .ah-form-container {
+        padding: 30px 35px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .ah-form-container {
+        padding: 20px 25px;
+        margin: 0px;
+    }
+}
