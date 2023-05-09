@@ -31,22 +31,6 @@
     color: var(--ah-color-n-600);
 }
 
-@media screen and (max-width: 768px) {
-    .ah-section-promo > div > h1 {
-        font-size: 35px;
-        font-weight: 900;
-    }
-
-    .ah-section-promo-p {
-        font-size: 14px;
-    }
-
-    .ah-section-promo-p-2 {
-        font-size: 12px;
-        color: var(--ah-color-n-200);
-    }
-}
-
 @media screen and (max-width: 628px) {
     .ah-section-promo {
         margin: 0rem 2rem 2rem 2rem;

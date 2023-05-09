@@ -1,9 +1,9 @@
 import "./Home.css";
-import { template as Hero } from "./Hero";
-import { template as Promo } from "./Promo";
-import { template as DoubleBanner } from "./DoubleBanner";
-import { template as Featured } from "./Featured";
-import { template as Claim } from "./Claim";
+import { template as Hero } from "../../components/Home/Hero";
+import { template as Promo } from "../../components/Home/Promo";
+import { template as DoubleBanner } from "../../components/Home/DoubleBanner";
+import { template as Featured } from "../../components/Home/Featured";
+import { template as Claim } from "../../components/Home/Claim";
 
 const template = () => {
   return `
@@ -16,5 +16,6 @@ const template = () => {
 };
 
 export const printTemplate = () => {
+  document.querySelector("main").innerHTML = "";
   document.querySelector("main").innerHTML = template();
 };

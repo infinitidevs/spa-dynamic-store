@@ -117,22 +117,3 @@
 .ah-section-featured--price {
     color: var(--ah-color-typography-price);
 }
-
-@media screen and (max-width: 768px) {
-    .ah-section-featured {
-        margin: 0;
-    }
-    
-    .ah-section-featured > h2 {
-        margin: 0;
-    }
-
-    .ah-section-featured__gallery {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 1.5rem;
-        margin-top: 2rem;
-    }
-}

@@ -1,9 +1,9 @@
 import "./Sunglasses.css";
 import { ProductCard } from "../../components/ProductCard/ProductCard";
 import { productsData } from "../../utils/productsData";
-import { template as Hero } from "./Hero";
-import { template as FiltersForm } from "./FiltersForm";
-import { template as Claim } from "./Claim";
+import { template as Hero } from "../../components/Sunglasses/Hero";
+import { template as FiltersForm } from "../../components/Sunglasses/FiltersForm";
+import { template as Claim } from "../../components/Sunglasses/Claim";
 
 const template = () => {
   return `
@@ -83,6 +83,7 @@ const listeners = () => {
 };
 
 export const printTemplate = () => {
+  document.querySelector("main").innerHTML = "";
   document.querySelector("main").innerHTML = template();
   listeners();
 };
