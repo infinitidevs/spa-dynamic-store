@@ -65,10 +65,6 @@
     width: 448px;
 }
 
-.ah-strong {
-    color: var(--ah-color-n-600);
-}
-
 @media screen and (max-width: 890px) {
     .ah-section-hero {
         height: 35vh;
@@ -180,10 +176,6 @@
         font-weight: 400;
         color: var(--ah-color-n-050);
         place-items: center;
-    }
-
-    .ah-section-promo {
-        margin: 0rem 2rem 2rem 2rem;
     }
 }
 

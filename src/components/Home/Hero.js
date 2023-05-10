@@ -6,9 +6,9 @@ export const template = () => {
       <article class="ah-section-hero-container ah-layout-flex">
         <div>
         <picture>
-          <source media="(max-width: 768px)" srcset="./assets/hero-mobile.jpg"
+          <source media="(max-width: 768px)" srcset="./assets/images/hero-mobile.jpg"
             alt="Hero Image Mobile" loading="lazy" class="ah-section-hero--banner">
-          <img media="(min-width: 1920px)" src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw5a61edd2/images/new-home/banners/BANNER_DOGMA_D.jpg"
+          <img media="(min-width: 1920px)" src="./assets/images/hero.jpg"
             alt="Hero Image" loading="lazy" class="ah-section-hero--banner" />
         </picture>
         </div>

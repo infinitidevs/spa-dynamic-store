@@ -31,25 +31,25 @@ const template = () => {
                             <ul class="ah-icons-list">
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/6bmvJ2TZXo0LhH2I0n5uHM/011c3e32f29fdffaabfda6a29f9a02ff/Facebook.svg"
+                                        <img src="./assets/icons/facebook.svg"
                                         alt="Facebook">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/2GFeFLSn25QGZHbEarXPLP/f5b1b291c1dbda15facad89e6247b50e/Instagram.svg"
+                                        <img src="./assets/icons/instagram.svg"
                                         alt="Instagram">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/6eJE57D8jlgeaUGSykXZKP/ca83fa90270caeacea07586cc74a87b5/Youtube.svg"
+                                        <img src="./assets/icons/youtube.svg"
                                         alt="Youtube">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/2rg8SuyooT125iw7mpTzwv/04080ca2e9faa8b489206357e9667b78/Twitter.svg"
+                                        <img src="./assets/icons/twitter.svg"
                                         alt="Twitter">
                                     </a>
                                 </li>
@@ -59,31 +59,31 @@ const template = () => {
                             <h4 class="ah-title">Métodos de pago</h4>
                             <ul class="ah-icons-list-lower">
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/4pf0h3WBWpiznO5umauc6L/474804736b966a846da5f154e635904d/Mastercard.png"
+                                    <img src="./assets/icons/mastercard.png"
                                     alt="Mastercard">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/69dhHWMyhuWiw0uRGN4NLg/6b97b7ca83b871fd974215807b6cae1a/VISA.png"
+                                    <img src="./assets/icons/visa.png"
                                     alt="VISA">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/3an0bKJUx8GyjKsit13o1q/1beaa0f13d77d1e9b5e40fa062578d80/AmericanExpress.png"
+                                    <img src="./assets/icons/amex.png"
                                     alt="AmericanExpress">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dwb910c52a/images/icons/klarna.svg" 
+                                    <img src="./assets/icons/klarna.svg" 
                                     alt="Klarna">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.ray-ban.com/rbstatichtml/assets/images/paypal-dark.svg" 
+                                    <img src="./assets/icons/paypal.svg" 
                                     alt="PayPal">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.ray-ban.com/rbstatichtml/assets/images/apple-pay-light.svg" 
+                                    <img src="./assets/icons/apple-pay.svg" 
                                     alt="Apple Pay">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw029f5071/images/icons/ssl.png" 
+                                    <img src="./assets/icons/ssl-encrypt.png" 
                                     alt="SSL Secured">
                                 </li>
                             </ul>
@@ -95,7 +95,7 @@ const template = () => {
         <section class="ah-strip">
             <div class="ah-strip-wrapper">
                 <h4 class="ah-strip-text">VISIONARY EYEWEAR STORE © 2023</h4>
-                <img src="https://www.carreraworld.com/_nuxt/33cae93821652388535bf6e01162b11a.svg" 
+                <img src="./assets/icons/logo-strip.svg" 
                 alt="Logo Strip" 
                 class="ah-strip-image">
             </div>

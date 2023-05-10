@@ -4,14 +4,14 @@ export const ProductCard = (product) => {
     return `
     <article class="ah-card">
         <div>
-            <img src="/assets/favicon.png" 
-            alt="Favorite Icon"
-            loading="lazy"
-            class="ah-card-fav-icon">
+            <img src="./assets/icons/fav-icon.png" 
+                alt="Favorite Icon"
+                loading="lazy"
+                class="ah-card-fav-icon">
         </div>
         <figure>
             <img src=${product.image}
-                alt="Ray-ban-Clubmaster-Classic">
+                alt="${product.brand}">
         </figure>
         <section class="ah-card-details">
             <div class="ah-card-min-details">
@@ -24,4 +24,3 @@ export const ProductCard = (product) => {
     </article>
     `;
 };
-

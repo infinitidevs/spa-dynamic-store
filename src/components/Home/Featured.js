@@ -7,12 +7,12 @@ export const template = () => {
         <div class="ah-section-featured__gallery ah-layout-flex__gallery">
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://images.ray-ban.com/is/image/RayBan/8056597755276__STD__shad__cfr.png"
+                    <img src="./assets/products/sung-1.avif"
                         alt="Ray-ban-Clubmaster-Classic">
                 </figure>
                 <section class="ah-card-details">
@@ -26,12 +26,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597394727__STD__shad__cfr.png"
+                    <img src="./assets/products/sung-2.avif"
                         alt="Persol-PO3264S">
                 </figure>
                 <section class="ah-card-details">
@@ -45,12 +45,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597546003__STD__shad__cfr.png"
+                    <img src="./assets/products/sung-3.avif"
                         alt="Emporio-Armani-EA2123">
                 </figure>
                 <section class="ah-card-details">
@@ -63,18 +63,18 @@ export const template = () => {
                 </section>
             </article>
         </div>
-        </section>
-        <section class="ah-section-featured ah-layout-flex">
+    </section>
+    <section class="ah-section-featured ah-layout-flex">
         <h2 id="gafas-graduadas">GAFAS GRADUADAS</h2>
         <div class="ah-section-featured__gallery ah-layout-flex__gallery">
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597676373__STD__shad__cfr.png"
+                    <img src="./assets/products/eyeg-1.avif"
                         alt="POLORP-PH4151">
                 </figure>
                 <section class="ah-card-details">
@@ -88,12 +88,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://images.ray-ban.com/is/image/RayBan/805289445906__STD__shad__cfr.png"
+                    <img src="./assets/products/eyeg-2.avif"
                         alt="Ray-Ban-RB5228-Optics">
                 </figure>
                 <section class="ah-card-details">
@@ -107,12 +107,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
-                    alt="Favorite Icon"
-                    class="ah-card-fav-icon">
+                    <img src="./assets/icons/fav-icon.png" 
+                        alt="Favorite Icon"
+                        class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://images.ray-ban.com/is/image/RayBan/8056597446204__STD__shad__cfr.png"
+                    <img src="./assets/products/eyeg-3.avif"
                         alt="Ray-Ban-Hexagonal-Optics">
                 </figure>
                 <section class="ah-card-details">
@@ -125,18 +125,18 @@ export const template = () => {
                 </section>
             </article>
         </div>
-        </section>
-        <section class="ah-section-featured ah-layout-flex">
+    </section>
+    <section class="ah-section-featured ah-layout-flex">
         <h2 id="new-in">NEW IN</h2>
         <div class="ah-section-featured__gallery ah-layout-flex__gallery">
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597705349__STD__shad__cfr.png"
+                    <img src="./assets/products/new-1.avif"
                         alt="Burberry-Jarvis">
                 </figure>
                 <section class="ah-card-details">
@@ -150,12 +150,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://images.ray-ban.com/is/image/RayBan/8056597829328__STD__shad__cfr.png"
+                    <img src="./assets/products/new-2.avif"
                         alt="Ray-Ban-Kiliane-Bio-Based">
                 </figure>
                 <section class="ah-card-details">
@@ -169,12 +169,12 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/7895653246942__STD__shad__cfr.png?impolicy=SGH_bgtransparent"
+                    <img src="./assets/products/new-3.webp"
                         alt="Arnette-Woland">
                 </figure>
                 <section class="ah-card-details">
@@ -186,20 +186,20 @@ export const template = () => {
                         class="ah-card-details-btn" target="_blank" rel="noopener">AGREGAR A LA CESTA</a>
                 </section>
             </article>
-        </div>
-        </section>
-        <section class="ah-section-featured ah-layout-flex">
+        </div>        
+    </section>
+    <section class="ah-section-featured ah-layout-flex">
         <h2 id="find-your-style">FIND YOUR STYLE</h2>
         <div class="ah-section-featured__gallery ah-layout-flex__gallery">
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://media.ray-ban.com/cms/resource/image/511944/landscape_ratio144x65/400/180/5b54e76caae6208506738e2be8024d08/39C131BB7AF17A7105333FC52DF3D7A0/ww-rb-aviator-menu-eyeglasses-new.png"
-                        alt="zapatillas-London-edition">
+                    <img src="./assets/products/find-1.webp"
+                        alt="Aviator Classic">
                 </figure>
                 <section class="ah-card-details">
                     <div class="ah-card-min-details">
@@ -212,13 +212,13 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://media.ray-ban.com/cms/resource/image/659690/landscape_ratio144x65/400/180/e2aaff81dc74f3ae235510db67635972/FE4C67D8B2ACA8A6C53CC99F5059B544/8056597891097-1-.png"
-                        alt="zapatillas-London-edition">
+                    <img src="./assets/products/find-2.avif"
+                        alt="Wayfarer">
                 </figure>
                 <section class="ah-card-details">
                     <div class="ah-card-min-details">
@@ -231,13 +231,13 @@ export const template = () => {
             </article>
             <article class="ah-card">
                 <div>
-                    <img src="./assets/favicon.png" 
+                    <img src="./assets/icons/fav-icon.png" 
                     alt="Favorite Icon"
                     class="ah-card-fav-icon">
                 </div>
                 <figure>
-                    <img src="https://media.ray-ban.com/cms/resource/image/511862/landscape_ratio144x65/400/180/44450fd4a4f9101608a4dfded6650293/7646DE0873BBE0D43AF07D0608353FAE/ww-rb-clubmaster-menu-eyeglasses-new.png"
-                        alt="zapatilla-brooks-edicion especial">
+                    <img src="./assets/products/find-3.webp"
+                        alt="clubmaster">
                 </figure>
                 <section class="ah-card-details">
                     <div class="ah-card-min-details">
